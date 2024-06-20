@@ -16,7 +16,7 @@ export const POST = async (
     const course = await db.course.findUnique({
       where: {
         id: courseId,
-        instructorId: userId,
+        
       },
     });
     if (!course) {
