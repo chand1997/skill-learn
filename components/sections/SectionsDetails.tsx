@@ -75,7 +75,7 @@ const SectionsDetails = ({
       </div>
       <ReadText value={section?.description!} />
       {isLocked ? (
-        <div className="px-10 flex flex-col gap-5 items-center bg-[#FFF8EB]">
+        <div className="p-10  flex flex-col gap-5 items-center bg-[#FFF8EB]">
           <Lock className="h-8 w-8" />
           <p className="text-sm font-bold">
             Video for this section is locked!. Please buy the course to access
